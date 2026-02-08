@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yosua Valentino - IT Student | Backend Developer & System Logic Enthusiast">
+    <meta name="author" content="Yosua Valentino Gulo">
+    <meta name="keywords" content="Backend Developer, IT Student, System Logic, PHP, MySQL, Web Development">
+    <title>Yosua Valentino | Backend Developer & System Logic Enthusiast</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.svg">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+
+    <link rel="stylesheet" href="assets/css/style.css?v=2">
+</head>
+<body>
+ 
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+        <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+    </button>
+
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo-brand">
+                <img src="assets/images/logo-personal.png?v=2" alt="YVG Logo" class="logo-light">
+                <img src="assets/images/logo-personal-dark.png?v=2" alt="YVG Logo" class="logo-dark">
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in-up">
+                    <h1 class="hero-title fade-in-up">Yosua Valentino Gulo</h1>
+                    <p class="hero-tagline">"Walk by faith, not by sight"</p>
+                    <p class="hero-description">Lifetime learner</p>
+                    <div class="hero-buttons">
+                        <a href="assets/docs/cv-yosua.pdf" download="CV_Yosua_Valentino.pdf" class="btn btn-primary">Download CV</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in-up">
+                    <div class="profile-photo">
+                        <img src="assets/images/profile-hero.jpg?v=1" alt="Yosua Valentino Gulo" class="hero-photo-light">
+                        <img src="assets/images/profile-hero-dark.jpg?v=1" alt="Yosua Valentino Gulo" class="hero-photo-dark">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">About Me</h2>
+            <div class="about-content fade-in-up">
+                <div class="about-text">
+                    <p>I'm an Information Technology student who's curious about how systems actually work. Not just on the surface. I like breaking things down, asking questions, and learning across fields, from IT to professional audio systems. I'm detail-oriented, self-driven, and always looking to grow through real-world tech and practical problem-solving.</p>
+                    
+                    <div class="focus-areas">
+                        <h3>Focus Areas</h3>
+                        <ul>
+                            <li>Backend development</li>
+                            <li>System logic</li>
+                            <li>Understanding how things work under the hood</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="career-goal">
+                        <h3>Career Goal</h3>
+                        <p>Core backend developer focused on system logic, backend architecture, and complex, security-critical systems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="education" class="education section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Education</h2>
+            <div class="education-timeline">
+                <div class="education-card fade-in-up">
+                    <a href="https://sman15medan.sch.id" target="_blank" rel="noopener noreferrer" class="education-logo">
+                        <img src="assets/images/logo-sman15.png" alt="SMAN 15 Medan Logo">
+                    </a>
+                    <div class="education-content">
+                        <h3>SMAN 15 Medan</h3>
+                        <p class="education-level">Senior High School (SMA)</p>
+                        <p class="education-major">Science (IPA)</p>
+                        <p class="education-year">2022 – 2025</p>
+                    </div>
+                </div>
+                
+                <div class="education-card fade-in-up">
+                    <a href="https://fasilkom-ti.usu.ac.id" target="_blank" rel="noopener noreferrer" class="education-logo">
+                        <img src="assets/images/logo-usu.png" alt="Universitas Sumatera Utara Logo">
+                    </a>
+                    <div class="education-content">
+                        <h3>Universitas Sumatera Utara</h3>
+                        <p class="education-level">Bachelor Degree (S1)</p>
+                        <p class="education-major">Information Technology</p>
+                        <p class="education-year">2025 – 2028</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Skills</h2>
+            
+            <div class="skills-category fade-in-up">
+                <h3>Programming Languages</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">SQL</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">C</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">PHP</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">C++</span>
+                            <span class="skill-percentage">30%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="30"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-category fade-in-up">
+                <h3>Backend Development</h3>
+                <div class="skills-tags">
+                    <span class="skill-tag">Basic authentication & authorization</span>
+                    <span class="skill-tag">Database design</span>
+                    <span class="skill-tag">Backend logic</span>
+                    <span class="skill-tag">Data processing</span>
+                    <span class="skill-tag">REST API fundamentals</span>
+                </div>
+            </div>
+            
+            <div class="skills-category fade-in-up">
+                <h3>Tools & Technologies</h3>
+                <div class="skills-tags">
+                    <span class="skill-tag">Git & GitHub</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">Linux</span>
+                    <span class="skill-tag">Visual Studio Code</span>
+                    <span class="skill-tag">Azure</span>
+                    <span class="skill-tag">Google Cloud Platform (GCP)</span>
+                    <span class="skill-tag">DigitalOcean</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <img src="assets/images/project-olimpiade.jpg" alt="olimpiadesains15.id screenshot">
+                    </div>
+                    <div class="project-content">
+                        <h3>olimpiadesains15.id</h3>
+                        <p class="project-description">Website for a science olympiad event organized by SMAN 15 Medan, supporting online registration and event information delivery.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">Elementor</span>
+                            <span class="tech-tag">GCP</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-type">Personal</span>
+                            <a href="https://web.archive.org/web/20241211135034/http://olimpiadesains15.id/" target="_blank" rel="noopener noreferrer" class="project-link wayback-link">
+                                <span class="wayback-badge">📦 Wayback Machine</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <img src="assets/images/project-tifess.jpg" alt="TI-FESS screenshot">
+                    </div>
+                    <div class="project-content">
+                        <h3>TI-FESS</h3>
+                        <p class="project-description">Confession platform for Information Technology students with admin panel, moderation system, and merchandise management.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Azure VM</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-type">Academic</span>
+                            <a href="https://tifess-usu.my.id" target="_blank" rel="noopener noreferrer" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-card fade-in-up">
+                    <div class="experience-logo">
+                        <img src="assets/images/libels-logo.png" alt="Libels Archery Club Logo">
+                    </div>
+                    <div class="experience-content">
+                        <h3>IT & IANSEO Scoring Engineer</h3>
+                        <p class="experience-org">Libels Archery Club</p>
+                        <p class="experience-year">2024</p>
+                        <p class="experience-description">Managed the IANSEO scoring system and IT infrastructure for archery competitions, ensuring accurate real-time scoring, data integrity, and smooth technical operations.</p>
+                    </div>
+                </div>
+                
+                <div class="experience-card fade-in-up">
+                    <div class="experience-logo">
+                        <img src="assets/images/olimpiade-sains-logo.png" alt="Olimpiade Sains Libels Logo">
+                    </div>
+                    <div class="experience-content">
+                        <h3>IT Lead & Web Developer</h3>
+                        <p class="experience-org">Olimpiade Sains Libels</p>
+                        <p class="experience-year">2024</p>
+                        <p class="experience-description">Built and managed the official Olimpiade Sains Libels website, supporting online registration and event information delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="certificates" class="certificates section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Certificates</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card fade-in-up">
+                    <div class="certificate-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                            <line x1="16" y1="13" x2="8" y2="13"/>
+                            <line x1="16" y1="17" x2="8" y2="17"/>
+                            <polyline points="10 9 9 9 8 9"/>
+                        </svg>
+                    </div>
+                    <h3>IT Lead and WebDev</h3>
+                    <p class="certificate-issuer">Olimpiade Sains Libels</p>
+                    <p class="certificate-year">2024</p>
+                </div>
+                
+                <div class="certificate-card fade-in-up">
+                    <div class="certificate-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                            <line x1="16" y1="13" x2="8" y2="13"/>
+                            <line x1="16" y1="17" x2="8" y2="17"/>
+                            <polyline points="10 9 9 9 8 9"/>
+                        </svg>
+                    </div>
+                    <h3>Panitia Bidang IT</h3>
+                    <p class="certificate-issuer">Libels Archery Club</p>
+                    <p class="certificate-year">2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Contact</h2>
+            <div class="contact-content fade-in-up">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <svg class="contact-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        <div>
+                            <p class="contact-label">Personal Email</p>
+                            <a href="mailto:guloyosua@gmail.com">guloyosua@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <svg class="contact-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        <div>
+                            <p class="contact-label">University Email</p>
+                            <a href="mailto:yosuavalentino@students.usu.ac.id">yosuavalentino@students.usu.ac.id</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <svg class="contact-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        </svg>
+                        <div>
+                            <p class="contact-label">GitHub</p>
+                            <a href="https://github.com/yopalll" target="_blank" rel="noopener noreferrer">github.com/yopalll</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <svg class="contact-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                        <div>
+                            <p class="contact-label">LinkedIn</p>
+                            <a href="https://www.linkedin.com/in/yosua-valentino-gulo-7b9a1024b/" target="_blank" rel="noopener noreferrer">Yosua Valentino Gulo</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <svg class="contact-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                        <div>
+                            <p class="contact-label">Instagram</p>
+                            <a href="https://www.instagram.com/yvlglo/" target="_blank" rel="noopener noreferrer">@yvlglo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-copyright">© 2026 Yosua Valentino</p>
+            <p class="footer-quote">"Walk by faith, not by sight"</p>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
